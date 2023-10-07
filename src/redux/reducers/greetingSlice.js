@@ -24,7 +24,7 @@ const greetingSlice = createSlice({
         state.error = true;
         state.errMsg = action.payload.error;
       });
-  }
-})
+  },
+});
 
 export default greetingSlice.reducer;
